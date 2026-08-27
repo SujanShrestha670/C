@@ -81,9 +81,9 @@ int main(void) {
       day2 = temp3;
 
       is_leap = is_year2_leap;
+    }else {
+      is_leap = is_year1_leap;
     }
-
-    is_leap = is_year1_leap;
 
     if(day1 < day2) {
       month1--;
