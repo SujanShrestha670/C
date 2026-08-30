@@ -1,10 +1,10 @@
 /*
-
+ 
     1
-   222
-  33333
- 4444444
-555555555
+   123
+  12345
+ 1234567
+123456789
  
 */
 
@@ -19,14 +19,15 @@ int main(void) {
     }
 
     for(int k = 1; k <= i; k++) {
-      printf("%d", i);
+      printf("%d", k);
     }
-    
+
     if(i >= 2) {
       for(int l = 1; l < i; l++) {
-        printf("%d", i);
+        printf("%d", i + l);
       }
     }
+
     printf("\n");
   }
 
