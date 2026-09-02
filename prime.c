@@ -8,10 +8,11 @@ int prime(int number) {
   }
 
   for(int i = 2; i <= sqrt(number); i++) {
-    if(number % i == 0) 
+    if(number % i == 0){ 
       return 0;
+    }
   }
 
-  return 1;
+  return number;
 
 }
